@@ -13,6 +13,7 @@
 		2B5207A227BA851F00A7CD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5207A127BA851F00A7CD3E /* Assets.xcassets */; };
 		2B5207A527BA851F00A7CD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5207A327BA851F00A7CD3E /* LaunchScreen.storyboard */; };
 		2B5207AD27BA860800A7CD3E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207AC27BA860800A7CD3E /* HomeVC.swift */; };
+		CFEC54327ED9EA9F8ABD22D7 /* Pods_NavigationBar_GenieMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22ACB20A804096D031BB01A /* Pods_NavigationBar_GenieMusic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,9 @@
 		2B5207A427BA851F00A7CD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5207A627BA851F00A7CD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5207AC27BA860800A7CD3E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		788DC2D92A9115FCD8DDF5D8 /* Pods-NavigationBar-GenieMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBar-GenieMusic.release.xcconfig"; path = "Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic.release.xcconfig"; sourceTree = "<group>"; };
+		9E8DA86CF3AC992232F18520 /* Pods-NavigationBar-GenieMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBar-GenieMusic.debug.xcconfig"; path = "Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		C22ACB20A804096D031BB01A /* Pods_NavigationBar_GenieMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBar_GenieMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFEC54327ED9EA9F8ABD22D7 /* Pods_NavigationBar_GenieMusic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				2B52079727BA851E00A7CD3E /* NavigationBar-GenieMusic */,
 				2B52079627BA851E00A7CD3E /* Products */,
+				4000EEF0D7DA2343E5C50EE3 /* Pods */,
+				F3205D646B841985D22BBA83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +106,23 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
+		4000EEF0D7DA2343E5C50EE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E8DA86CF3AC992232F18520 /* Pods-NavigationBar-GenieMusic.debug.xcconfig */,
+				788DC2D92A9115FCD8DDF5D8 /* Pods-NavigationBar-GenieMusic.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3205D646B841985D22BBA83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C22ACB20A804096D031BB01A /* Pods_NavigationBar_GenieMusic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B5207A927BA851F00A7CD3E /* Build configuration list for PBXNativeTarget "NavigationBar-GenieMusic" */;
 			buildPhases = (
+				30DA4CC74B888C16D6D89076 /* [CP] Check Pods Manifest.lock */,
 				2B52079127BA851E00A7CD3E /* Sources */,
 				2B52079227BA851E00A7CD3E /* Frameworks */,
 				2B52079327BA851E00A7CD3E /* Resources */,
+				B09AC74A753CF9A448A8F2D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +190,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30DA4CC74B888C16D6D89076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NavigationBar-GenieMusic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B09AC74A753CF9A448A8F2D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2B52079127BA851E00A7CD3E /* Sources */ = {
@@ -316,6 +384,7 @@
 		};
 		2B5207AA27BA851F00A7CD3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8DA86CF3AC992232F18520 /* Pods-NavigationBar-GenieMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,7 +392,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NavigationBar-GenieMusic/Info.plist";
+				INFOPLIST_FILE = "NavigationBar-GenieMusic/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -344,6 +413,7 @@
 		};
 		2B5207AB27BA851F00A7CD3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788DC2D92A9115FCD8DDF5D8 /* Pods-NavigationBar-GenieMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -351,7 +421,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4QG3GC35LA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "NavigationBar-GenieMusic/Info.plist";
+				INFOPLIST_FILE = "NavigationBar-GenieMusic/Resource/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
