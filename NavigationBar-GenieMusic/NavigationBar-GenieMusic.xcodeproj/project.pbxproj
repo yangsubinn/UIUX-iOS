@@ -13,6 +13,9 @@
 		2B5207A227BA851F00A7CD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5207A127BA851F00A7CD3E /* Assets.xcassets */; };
 		2B5207A527BA851F00A7CD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5207A327BA851F00A7CD3E /* LaunchScreen.storyboard */; };
 		2B5207AD27BA860800A7CD3E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207AC27BA860800A7CD3E /* HomeVC.swift */; };
+		2B5207B527BA904200A7CD3E /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207B427BA904200A7CD3E /* NavigationBar.swift */; };
+		2B5207B727BA95B300A7CD3E /* ChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207B627BA95B300A7CD3E /* ChartVC.swift */; };
+		2B5207B927BA9BF000A7CD3E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207B827BA9BF000A7CD3E /* DetailVC.swift */; };
 		CFEC54327ED9EA9F8ABD22D7 /* Pods_NavigationBar_GenieMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22ACB20A804096D031BB01A /* Pods_NavigationBar_GenieMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		2B5207A427BA851F00A7CD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B5207A627BA851F00A7CD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B5207AC27BA860800A7CD3E /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2B5207B427BA904200A7CD3E /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		2B5207B627BA95B300A7CD3E /* ChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartVC.swift; sourceTree = "<group>"; };
+		2B5207B827BA9BF000A7CD3E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		788DC2D92A9115FCD8DDF5D8 /* Pods-NavigationBar-GenieMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBar-GenieMusic.release.xcconfig"; path = "Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic.release.xcconfig"; sourceTree = "<group>"; };
 		9E8DA86CF3AC992232F18520 /* Pods-NavigationBar-GenieMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBar-GenieMusic.debug.xcconfig"; path = "Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		C22ACB20A804096D031BB01A /* Pods_NavigationBar_GenieMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBar_GenieMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +88,7 @@
 		2B5207AF27BA863A00A7CD3E /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				2B5207B327BA8AE000A7CD3E /* Component */,
 				2B5207B127BA869100A7CD3E /* ViewControllers */,
 				2B52079827BA851E00A7CD3E /* AppDelegate.swift */,
 				2B52079A27BA851E00A7CD3E /* SceneDelegate.swift */,
@@ -93,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				2B5207AC27BA860800A7CD3E /* HomeVC.swift */,
+				2B5207B627BA95B300A7CD3E /* ChartVC.swift */,
+				2B5207B827BA9BF000A7CD3E /* DetailVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -104,6 +113,14 @@
 				2B5207A327BA851F00A7CD3E /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2B5207B327BA8AE000A7CD3E /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				2B5207B427BA904200A7CD3E /* NavigationBar.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		4000EEF0D7DA2343E5C50EE3 /* Pods */ = {
@@ -241,6 +258,9 @@
 				2B5207AD27BA860800A7CD3E /* HomeVC.swift in Sources */,
 				2B52079927BA851E00A7CD3E /* AppDelegate.swift in Sources */,
 				2B52079B27BA851E00A7CD3E /* SceneDelegate.swift in Sources */,
+				2B5207B527BA904200A7CD3E /* NavigationBar.swift in Sources */,
+				2B5207B727BA95B300A7CD3E /* ChartVC.swift in Sources */,
+				2B5207B927BA9BF000A7CD3E /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
