@@ -16,6 +16,7 @@
 		2B5207B527BA904200A7CD3E /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207B427BA904200A7CD3E /* NavigationBar.swift */; };
 		2B5207B727BA95B300A7CD3E /* ChartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207B627BA95B300A7CD3E /* ChartVC.swift */; };
 		2B5207B927BA9BF000A7CD3E /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5207B827BA9BF000A7CD3E /* DetailVC.swift */; };
+		2BCB8C2227BB85C80048C96F /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCB8C2127BB85C80048C96F /* HomeHeaderView.swift */; };
 		CFEC54327ED9EA9F8ABD22D7 /* Pods_NavigationBar_GenieMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22ACB20A804096D031BB01A /* Pods_NavigationBar_GenieMusic.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		2B5207B427BA904200A7CD3E /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		2B5207B627BA95B300A7CD3E /* ChartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartVC.swift; sourceTree = "<group>"; };
 		2B5207B827BA9BF000A7CD3E /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		2BCB8C2127BB85C80048C96F /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		788DC2D92A9115FCD8DDF5D8 /* Pods-NavigationBar-GenieMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBar-GenieMusic.release.xcconfig"; path = "Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic.release.xcconfig"; sourceTree = "<group>"; };
 		9E8DA86CF3AC992232F18520 /* Pods-NavigationBar-GenieMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NavigationBar-GenieMusic.debug.xcconfig"; path = "Target Support Files/Pods-NavigationBar-GenieMusic/Pods-NavigationBar-GenieMusic.debug.xcconfig"; sourceTree = "<group>"; };
 		C22ACB20A804096D031BB01A /* Pods_NavigationBar_GenieMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NavigationBar_GenieMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				2B5207B427BA904200A7CD3E /* NavigationBar.swift */,
+				2BCB8C2127BB85C80048C96F /* HomeHeaderView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				2B52079B27BA851E00A7CD3E /* SceneDelegate.swift in Sources */,
 				2B5207B527BA904200A7CD3E /* NavigationBar.swift in Sources */,
 				2B5207B727BA95B300A7CD3E /* ChartVC.swift in Sources */,
+				2BCB8C2227BB85C80048C96F /* HomeHeaderView.swift in Sources */,
 				2B5207B927BA9BF000A7CD3E /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

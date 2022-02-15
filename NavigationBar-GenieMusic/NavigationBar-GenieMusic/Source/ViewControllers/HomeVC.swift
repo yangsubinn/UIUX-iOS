@@ -11,6 +11,7 @@ class HomeVC: UIViewController {
     
     // MARK: - Properties
     
+    private let headerView = HomeHeaderView()
     private let nameLabel = UILabel()
     private let chartButton = UIButton()
     private let detailButton = UIButton()
@@ -28,9 +29,11 @@ class HomeVC: UIViewController {
     
     private func setUI() {
         view.backgroundColor = .white
+        navigationController?.isNavigationBarHidden = true
+        
         nameLabel.text = "HomeVC👻"
         nameLabel.textColor = .black
-        nameLabel.font = .systemFont(ofSize: 24)
+        nameLabel.font = .systemFont(ofSize: 20)
         
         chartButton.setTitle("트렌디한 지니차트", for: .normal)
         chartButton.setTitleColor(.blue, for: .normal)
@@ -40,9 +43,15 @@ class HomeVC: UIViewController {
     }
     
     private func setLayout() {
+        view.addSubview(headerView)
         view.addSubview(nameLabel)
         view.addSubview(chartButton)
         view.addSubview(detailButton)
+        
+        headerView.snp.makeConstraints { make in
+            make.leading.top.trailing.equalTo(view.safeAreaLayoutGuide)
+            make.height.equalTo(60)
+        }
         
         nameLabel.snp.makeConstraints { make in
             make.center.equalToSuperview()

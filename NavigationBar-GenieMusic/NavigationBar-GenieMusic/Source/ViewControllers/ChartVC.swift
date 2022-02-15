@@ -37,7 +37,7 @@ class ChartVC: UIViewController {
         view.backgroundColor = .white
         nameLabel.text = "ChartVC🎂"
         nameLabel.textColor = .black
-        nameLabel.font = .systemFont(ofSize: 24)
+        nameLabel.font = .systemFont(ofSize: 20)
         
         beforeButton.setTitle("이전 뷰로", for: .normal)
         beforeButton.setTitleColor(.red, for: .normal)
