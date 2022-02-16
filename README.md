@@ -23,7 +23,17 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 
 ### ❓Content
 
-<details>
+#### Bars
+| Topic | Link | Code | ✔️ |
+|:--|:--|:--|:--|
+| Navigation Bars | | |
+| Search Bars | | |
+| Sidebars | | |
+| Status Bars | | |
+| Tab Bars | | |
+| Toolbars | | |
+
+<!-- <details>
 <summary> Content </summary>
   
   #### iOS
@@ -117,7 +127,7 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 | Steppers | | |
 | Switches | | |
 | Text Fields | | |
-</details>
+</details> -->
 
  
 <!-- #### iOS
