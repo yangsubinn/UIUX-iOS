@@ -24,9 +24,9 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 ### ❓Content
 
 #### Bars
-| Topic | Link | Code | ✔️ |
+| Topic | Docs | Code | ✔️ |
 |:--|:--|:--|:--|
-| Navigation Bars | | |
+| Navigation Bars | [📄](https://nosy-repair-8a6.notion.site/Navigation-Bar-1feefe85290e44a38789667bdc54cc35) | |
 | Search Bars | | |
 | Sidebars | | |
 | Status Bars | | |
