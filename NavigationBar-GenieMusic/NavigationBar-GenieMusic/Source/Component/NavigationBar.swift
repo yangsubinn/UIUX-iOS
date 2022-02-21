@@ -56,6 +56,7 @@ class NavigationBar: UIView {
     }
     
     private func setUI(title: String) {
+        self.backgroundColor = .clear
         titleLabel.text = title
         titleLabel.textColor = .black
         titleLabel.font = .boldSystemFont(ofSize: 18)
@@ -65,6 +66,10 @@ class NavigationBar: UIView {
         
         profileButton.setImage(UIImage(systemName: "person.fill"), for: .normal)
         profileButton.tintColor = .black
+    }
+    
+    func setNaviTitle(_ title: String) {
+        titleLabel.text = title
     }
     
     private func setAddTarget() {
