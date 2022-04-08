@@ -18,6 +18,7 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 그래서! 지난 스터디를 이어 다양한 UIUX를 접해보고 그걸 따라 구현해보며 공부해보자 합니다.. 예..🧱     
 [육회스터디 UX_ThinkBig](https://github.com/UXThinkBig/UX_ThinkBig)
 
+###### 진짜 제대로 안하면 내가 🐶다..
 
 <br> 
 
