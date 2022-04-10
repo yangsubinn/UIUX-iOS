@@ -18,6 +18,7 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 그래서! 지난 스터디를 이어 다양한 UIUX를 접해보고 그걸 따라 구현해보며 공부해보자 합니다.. 예..🧱     
 [육회스터디 UX_ThinkBig](https://github.com/UXThinkBig/UX_ThinkBig)
 
+###### 진짜 제대로 안하면 내가 🐶다..
 
 <br> 
 
@@ -27,14 +28,20 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 | Topic | Docs | Code | ✔️ |
 |:--|:--|:--|:--|
 | Navigation Bars | [📄](https://nosy-repair-8a6.notion.site/Navigation-Bar-1feefe85290e44a38789667bdc54cc35) | |
-| Search Bars | | |
+| Search Bars | [📄](https://nosy-repair-8a6.notion.site/Search-Bar-3dc8a591e1904d2984092762949d02b3) | |
+
+
+<!-- <details>
+<summary> Content </summary>
+#### Bars
+| Topic | Docs | Code | ✔️ |
+|:--|:--|:--|:--|
+| Navigation Bars | [📄](https://nosy-repair-8a6.notion.site/Navigation-Bar-1feefe85290e44a38789667bdc54cc35) | |
+| Search Bars | [📄](https://nosy-repair-8a6.notion.site/Search-Bar-3dc8a591e1904d2984092762949d02b3) | |
 | Sidebars | | |
 | Status Bars | | |
 | Tab Bars | | |
 | Toolbars | | |
-
-<!-- <details>
-<summary> Content </summary>
   
   #### iOS
 | Topic | Link | Code | ✔️ |
