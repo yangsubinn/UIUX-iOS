@@ -13,8 +13,10 @@ class TabBar: UIViewController {
     
     // MARK: - Properties
     
-    var selectedIndex: Int = 0
-    var previousIndex: Int = 0
+    var selectedIndex: Int = 1
+    var previousIndex: Int = 1
+    var footerHeight: CGFloat = 50
+    
     var viewControllers = [UIViewController]()
     var buttons = [UIButton]()
     
@@ -71,6 +73,22 @@ class TabBar: UIViewController {
         feedButton.addTarget(self, action: #selector(tabChanged(sender:)), for: .touchUpInside)
         homeButton.addTarget(self, action: #selector(tabChanged(sender:)), for: .touchUpInside)
         moreButton.addTarget(self, action: #selector(tabChanged(sender:)), for: .touchUpInside)
+    }
+    
+    /// UIView로 구성한 탭바 아래로 숨기기
+    func hideHeader() {
+        UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
+            let frame = CGAffineTransform(translationX: 0, y: self.tabView.frame.height)
+            self.tabView.transform = frame
+        })
+    }
+    
+    /// UIView로 구성한 탭바 위로 보이기
+    func showHeader() {
+        UIView.animate(withDuration: 0.3, delay: 0, options: .curveEaseInOut, animations: {
+            let frame = CGAffineTransform(translationX: 0, y: 0)
+            self.tabView.transform = frame
+        })
     }
     
     // MARK: - @objc

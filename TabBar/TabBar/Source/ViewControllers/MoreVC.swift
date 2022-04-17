@@ -14,7 +14,7 @@ class MoreVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .green
+        view.backgroundColor = .green.withAlphaComponent(0.5)
     }
     
 
