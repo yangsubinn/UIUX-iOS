@@ -41,7 +41,8 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 ### App Architecture
 | Topic | Docs | Code |
 |:--|:--:|:--:|
-| Launching| [📄]() | |
+| Launching | [📄](https://nosy-repair-8a6.notion.site/Launching-c70f80e1f1274ad485afb9001ffdeb78) | |
+| Onboarding |  | |
 
 
 <!-- <details>
