@@ -30,13 +30,31 @@
                     <view key="view" contentMode="scaleToFill" id="KLM-UR-BHr">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hl7-1q-yz5">
+                                <rect key="frame" x="170.5" y="432.5" width="73" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="화면전환"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="QkK-d5-0mA" eventType="touchUpInside" id="Th4-dZ-PFS"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="V2a-Ys-Pmr"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hl7-1q-yz5" firstAttribute="centerY" secondItem="KLM-UR-BHr" secondAttribute="centerY" id="T4E-zM-WWU"/>
+                            <constraint firstItem="hl7-1q-yz5" firstAttribute="centerX" secondItem="KLM-UR-BHr" secondAttribute="centerX" id="cxG-g6-h8P"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="mYu-Jt-g0c"/>
+                    <connections>
+                        <outlet property="button" destination="hl7-1q-yz5" id="pTl-nW-QN0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XRk-2Z-anl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="991" y="131"/>
+            <point key="canvasLocation" x="1900.0000000000002" y="130.58035714285714"/>
         </scene>
         <!--HomeVC-->
         <scene sceneID="UxU-47-6lY">
@@ -51,7 +69,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yeR-s8-LzX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1770" y="131"/>
+            <point key="canvasLocation" x="2679.7101449275365" y="130.58035714285714"/>
         </scene>
         <!--MoreVC-->
         <scene sceneID="5un-rI-uFf">
@@ -66,7 +84,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zos-1e-zyY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2528" y="131"/>
+            <point key="canvasLocation" x="3437.68115942029" y="130.58035714285714"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DGI-9X-dsE">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Noi-Ng-IMU" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="AJG-tq-UaJ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QkK-d5-0mA" kind="relationship" relationship="rootViewController" id="d9a-WV-Har"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kH2-cS-xrZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="989.85507246376824" y="130.58035714285714"/>
         </scene>
     </scenes>
     <resources>

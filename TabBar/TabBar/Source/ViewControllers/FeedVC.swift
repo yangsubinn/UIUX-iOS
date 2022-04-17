@@ -10,6 +10,12 @@ import UIKit
 class FeedVC: UIViewController {
     
     static let identifier = "FeedVC"
+    
+    // MARK: - Properties
+    
+    @IBOutlet weak var button: UIButton!
+    
+    // MARK: - Life Cycles
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,15 +23,11 @@ class FeedVC: UIViewController {
         view.backgroundColor = .red.withAlphaComponent(0.5)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // MARK: - Custom Methods
+    
+    @IBAction func buttonTapped(_ sender: Any) {
+        guard let nextVC = UIStoryboard(name: "Second", bundle: nil).instantiateViewController(withIdentifier: SecondVC.identifier) as? SecondVC else { return }
+        
+        self.present(nextVC, animated: true)
     }
-    */
-
 }

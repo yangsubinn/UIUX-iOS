@@ -17,6 +17,8 @@
 		2B3EC41A2803291F002178DC /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EC4192803291F002178DC /* FeedVC.swift */; };
 		2B3EC41C28032928002178DC /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EC41B28032928002178DC /* HomeVC.swift */; };
 		2B3EC41E28032937002178DC /* MoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EC41D28032937002178DC /* MoreVC.swift */; };
+		2BABE365280BFB9A00EFA45E /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BABE364280BFB9A00EFA45E /* Second.storyboard */; };
+		2BABE367280BFBAF00EFA45E /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BABE366280BFBAF00EFA45E /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		2B3EC4192803291F002178DC /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		2B3EC41B28032928002178DC /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		2B3EC41D28032937002178DC /* MoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreVC.swift; sourceTree = "<group>"; };
+		2BABE364280BFB9A00EFA45E /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		2BABE366280BFBAF00EFA45E /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		5A53D2F527541418EF34F0FD /* Pods-TabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar.release.xcconfig"; path = "Target Support Files/Pods-TabBar/Pods-TabBar.release.xcconfig"; sourceTree = "<group>"; };
 		AB95AE19EEC8BB411AC8D878 /* Pods-TabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabBar.debug.xcconfig"; path = "Target Support Files/Pods-TabBar/Pods-TabBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +103,7 @@
 			children = (
 				2B3EC40428031DD6002178DC /* Main.storyboard */,
 				2B3EC40928031DD7002178DC /* LaunchScreen.storyboard */,
+				2BABE364280BFB9A00EFA45E /* Second.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 				2B3EC4192803291F002178DC /* FeedVC.swift */,
 				2B3EC41B28032928002178DC /* HomeVC.swift */,
 				2B3EC41D28032937002178DC /* MoreVC.swift */,
+				2BABE366280BFBAF00EFA45E /* SecondVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BABE365280BFB9A00EFA45E /* Second.storyboard in Resources */,
 				2B3EC40B28031DD7002178DC /* LaunchScreen.storyboard in Resources */,
 				2B3EC40828031DD7002178DC /* Assets.xcassets in Resources */,
 				2B3EC40628031DD6002178DC /* Main.storyboard in Resources */,
@@ -257,6 +264,7 @@
 			files = (
 				2B3EC41A2803291F002178DC /* FeedVC.swift in Sources */,
 				2B3EC41E28032937002178DC /* MoreVC.swift in Sources */,
+				2BABE367280BFBAF00EFA45E /* SecondVC.swift in Sources */,
 				2B3EC41C28032928002178DC /* HomeVC.swift in Sources */,
 				2B3EC418280328A7002178DC /* TabBar.swift in Sources */,
 				2B3EC3FF28031DD6002178DC /* AppDelegate.swift in Sources */,
