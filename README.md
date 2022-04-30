@@ -24,11 +24,31 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 
 ### ❓Content
 
+#### iOS
+| Topic | Docs | 
+|:--|:--:|
+| Themes | [📄](https://nosy-repair-8a6.notion.site/iOS-Design-Themes-8f720a3b01814c41967339fbdebcc9fc) |
+| Interface Essentials | [📄](https://nosy-repair-8a6.notion.site/Interface-Essentials-e36e3f3bfefd4a7d86790a91d10cefd3) |
+
 #### Bars
-| Topic | Docs | Code | ✔️ |
-|:--|:--|:--|:--|
+| Topic | Docs | Code |
+|:--|:--:|:--:|
 | Navigation Bars | [📄](https://nosy-repair-8a6.notion.site/Navigation-Bar-1feefe85290e44a38789667bdc54cc35) | |
 | Search Bars | [📄](https://nosy-repair-8a6.notion.site/Search-Bar-3dc8a591e1904d2984092762949d02b3) | |
+| Tab Bars | [📄](https://nosy-repair-8a6.notion.site/Tab-Bar-733692c6616344aebffc20f34f03276a) | [🤓](https://github.com/yangsubinn/UIUX-iOS/tree/master/TabBar) |
+
+
+### App Architecture
+| Topic | Docs | Code |
+|:--|:--:|:--:|
+| Launching | [📄](https://nosy-repair-8a6.notion.site/Launching-c70f80e1f1274ad485afb9001ffdeb78) | |
+| Onboarding | [📄](https://nosy-repair-8a6.notion.site/Onboarding-b4b1b1214cb24a60a2be30f6bf08881d)  | |
+| Loading |[📄](https://nosy-repair-8a6.notion.site/Loading-983649c54df64a4b94ceb77202931cda) | |
+| Modality | | |
+| Navigation | | |
+| Accessing User Data | | |
+| Settings | | |
+
 
 
 <!-- <details>
@@ -36,24 +56,14 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 #### Bars
 | Topic | Docs | Code | ✔️ |
 |:--|:--|:--|:--|
-| Navigation Bars | [📄](https://nosy-repair-8a6.notion.site/Navigation-Bar-1feefe85290e44a38789667bdc54cc35) | |
-| Search Bars | [📄](https://nosy-repair-8a6.notion.site/Search-Bar-3dc8a591e1904d2984092762949d02b3) | |
 | Sidebars | | |
 | Status Bars | | |
-| Tab Bars | | |
 | Toolbars | | |
   
-  #### iOS
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Themes |  |  |
-| Interface Essentials | |
 
 #### App Architecture
 | Topic | Link | Code | ✔️ |
 |:--|:--|:--|:--|
-| Launching |  |  |
-| Onboarding |  | |
 | Loading | | |
 | Navigation | | |
 | Accessing User Data | | |
