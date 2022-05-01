@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDK-wt-LfO">
-                                <rect key="frame" x="162" y="144" width="90" height="31"/>
+                                <rect key="frame" x="162" y="124" width="90" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Automatic"/>
                                 <connections>
@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X8K-sp-8e0">
-                                <rect key="frame" x="161.5" y="215" width="91" height="31"/>
+                                <rect key="frame" x="161.5" y="195" width="91" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Fullscreen"/>
                                 <connections>
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cn0-Bz-vns">
-                                <rect key="frame" x="168" y="286" width="78" height="31"/>
+                                <rect key="frame" x="168" y="266" width="78" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Popover"/>
                                 <connections>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEc-IC-miz">
-                                <rect key="frame" x="159" y="357" width="96" height="31"/>
+                                <rect key="frame" x="159" y="337" width="96" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Page sheet"/>
                                 <connections>
@@ -49,7 +49,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJ6-Ab-CBL">
-                                <rect key="frame" x="158" y="428" width="98" height="31"/>
+                                <rect key="frame" x="158" y="408" width="98" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Form sheet"/>
                                 <connections>
@@ -57,7 +57,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6x4-Vt-SEs">
-                                <rect key="frame" x="144" y="499" width="126" height="31"/>
+                                <rect key="frame" x="144" y="479" width="126" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Current context"/>
                                 <connections>
@@ -65,7 +65,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ggl-I2-yMk">
-                                <rect key="frame" x="170" y="570" width="74" height="31"/>
+                                <rect key="frame" x="170" y="550" width="74" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Custom"/>
                                 <connections>
@@ -73,7 +73,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="165-gU-BFf">
-                                <rect key="frame" x="129.5" y="631" width="155" height="31"/>
+                                <rect key="frame" x="129.5" y="611" width="155" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="OverCurrentContext"/>
                                 <connections>
@@ -81,7 +81,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zFj-mF-mgW">
-                                <rect key="frame" x="146" y="692" width="122" height="31"/>
+                                <rect key="frame" x="146" y="672" width="122" height="31"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="OverFullscreen"/>
                                 <connections>
@@ -102,7 +102,7 @@
                             <constraint firstItem="aDK-wt-LfO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lfp-IE-XJP"/>
                             <constraint firstItem="6x4-Vt-SEs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="MvL-8k-b82"/>
                             <constraint firstItem="zFj-mF-mgW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qdo-ew-x5C"/>
-                            <constraint firstItem="aDK-wt-LfO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="TZ7-ge-N9c"/>
+                            <constraint firstItem="aDK-wt-LfO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="80" id="TZ7-ge-N9c"/>
                             <constraint firstItem="Cn0-Bz-vns" firstAttribute="top" secondItem="X8K-sp-8e0" secondAttribute="bottom" constant="40" id="XbJ-QR-7nC"/>
                             <constraint firstItem="165-gU-BFf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZUi-tq-Ba7"/>
                             <constraint firstItem="eEc-IC-miz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a72-7r-s6u"/>

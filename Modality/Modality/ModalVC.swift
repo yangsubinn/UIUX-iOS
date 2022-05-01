@@ -14,7 +14,7 @@ class ModalVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .darkGray.withAlphaComponent(0.5)
     }
     
     @IBAction func backButtonTap(_ sender: Any) {
