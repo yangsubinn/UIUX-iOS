@@ -23,6 +23,7 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 <br> 
 
 ### ❓Content
+[blog에서 확인하기🙆‍♀️](https://yang-subinn.tistory.com/category/iOS)
 
 #### iOS
 | Topic | Docs | 
