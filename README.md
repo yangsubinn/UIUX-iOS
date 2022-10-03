@@ -25,6 +25,10 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 ### ❓Content
 [blog에서 확인하기🙆‍♀️](https://yang-subinn.tistory.com/category/iOS)
 
+<details>
+<summary>HIG 변화 전</summary>
+<div>
+
 #### iOS
 | Topic | Docs | 
 |:--|:--:|
@@ -50,195 +54,9 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 | Accessing User Data | | |
 | Settings | | |
 
+</div>
+</details>
 
-
-<!-- <details>
-<summary> Content </summary>
-#### Bars
-| Topic | Docs | Code | ✔️ |
-|:--|:--|:--|:--|
-| Sidebars | | |
-| Status Bars | | |
-| Toolbars | | |
-  
-
-#### App Architecture
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Loading | | |
-| Navigation | | |
-| Accessing User Data | | |
-| Settings | | |
-
-#### User Interaction
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| 3D Touch |  |  |
-| Accounts | | |
-| Audio | | |
-| Data Entry | | |
-| Drag and Drop | | |
-| Feedback | | |
-| Gestures | | |
-| Haptics | | |
-| Keyboards | | |
-
-
-#### Visual Design
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Adaptivity and Layout | | |
-| Animation | | |
-| Branding | | |
-| Color | | |
-| Dark Mode | | |
-| Launch Screen | | |
-| Materials | | |
-| Terminology | | |
-| Typography | | |
-| Video | | |
-
-#### Icons and Images
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Image Size and Resolution | | |
-| App Icon and System Icons | | |
-
-#### Bars
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Navigation Bars | | |
-| Search Bars | | |
-| Sidebars | | |
-| Status Bars | | |
-| Tab Bars | | |
-| Toolbars | | |
-
-#### Views
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Action Sheets | | |
-| Activity Views | | |
-| Alerts | | |
-| Collections | | |
-| Image Views | | |
-| Pages | | |
-| Scroll Views | | |
-| Sheets | | |
-| Tables | | |
-| Text Views | | |
-| Web Views | | |
-
-#### Controls
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Buttons | | |
-| Context Menus | | |
-| Edit Menus | | |
-| Labels | | |
-| Page Controls | | |
-| Pickers | | |
-| Progress Indicator | | |
-| Refresh Content Controls | | |
-| Segmented Controls | | |
-| Sliders | | |
-| Steppers | | |
-| Switches | | |
-| Text Fields | | |
-</details> -->
-
- 
-<!-- #### iOS
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Themes |  |  |
-| Interface Essentials | |
-
-#### App Architecture
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Launching |  |  |
-| Onboarding |  | |
-| Loading | | |
-| Navigation | | |
-| Accessing User Data | | |
-| Settings | | |
-
-#### User Interaction
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| 3D Touch |  |  |
-| Accounts | | |
-| Audio | | |
-| Data Entry | | |
-| Drag and Drop | | |
-| Feedback | | |
-| Gestures | | |
-| Haptics | | |
-| Keyboards | | |
-
-
-#### Visual Design
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Adaptivity and Layout | | |
-| Animation | | |
-| Branding | | |
-| Color | | |
-| Dark Mode | | |
-| Launch Screen | | |
-| Materials | | |
-| Terminology | | |
-| Typography | | |
-| Video | | |
-
-#### Icons and Images
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Image Size and Resolution | | |
-| App Icon and System Icons | | |
-
-#### Bars
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Navigation Bars | | |
-| Search Bars | | |
-| Sidebars | | |
-| Status Bars | | |
-| Tab Bars | | |
-| Toolbars | | |
-
-#### Views
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Action Sheets | | |
-| Activity Views | | |
-| Alerts | | |
-| Collections | | |
-| Image Views | | |
-| Pages | | |
-| Scroll Views | | |
-| Sheets | | |
-| Tables | | |
-| Text Views | | |
-| Web Views | | |
-
-#### Controls
-| Topic | Link | Code | ✔️ |
-|:--|:--|:--|:--|
-| Buttons | | |
-| Context Menus | | |
-| Edit Menus | | |
-| Labels | | |
-| Page Controls | | |
-| Pickers | | |
-| Progress Indicator | | |
-| Refresh Content Controls | | |
-| Segmented Controls | | |
-| Sliders | | |
-| Steppers | | |
-| Switches | | |
-| Text Fields | | | -->
 
 
 
