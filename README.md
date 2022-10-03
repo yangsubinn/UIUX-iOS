@@ -25,8 +25,11 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 ### ❓Content
 [blog에서 확인하기🙆‍♀️](https://yang-subinn.tistory.com/category/iOS)
 
+**2022년 6월 7일 기준으로 HIG의 구성이 조금 바뀌었습니다         
+바뀐 HIG 구성으로 다시 하나씩 공부해보겠습니다^_^..
+
 <details>
-<summary>HIG 변화 전</summary>
+<summary>이전에 사부작사부작 공부한 HIG</summary>
 <div>
 
 #### iOS
@@ -50,9 +53,6 @@ iOS Human Interface Guidelines을 보며 유사한 사례를 찾아 분석하고
 | Onboarding | [📄](https://nosy-repair-8a6.notion.site/Onboarding-b4b1b1214cb24a60a2be30f6bf08881d)  | |
 | Loading |[📄](https://nosy-repair-8a6.notion.site/Loading-983649c54df64a4b94ceb77202931cda) | |
 | Modality | [📄](https://nosy-repair-8a6.notion.site/Modality-6cee0f6305554e9084ab760363b6f7ed) | |
-| Navigation | | |
-| Accessing User Data | | |
-| Settings | | |
 
 </div>
 </details>
